@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="LocalPad++ banner" width="100%">
+<img src="banner.png" alt="LocalPad++ banner" width="100%">
 
 <br>
 
@@ -13,13 +13,13 @@ Built for jump servers, terminal servers and Citrix sessions where no editor is 
 ![Dependencies](https://img.shields.io/badge/dependencies-0-bb9af7?style=for-the-badge&labelColor=1b1f27)
 ![License](https://img.shields.io/badge/license-MIT-f7768e?style=for-the-badge&labelColor=1b1f27)
 
-<img src="assets/divider.svg" alt="" width="60%">
+<img src="divider.svg" alt="" width="60%">
 
 </div>
 
 <table>
 <tr>
-<td width="150" align="center"><img src="assets/logo.png" width="130" alt="Pad-chan"></td>
+<td width="150" align="center"><img src="logo.png" width="130" alt="Pad-chan"></td>
 <td>
 
 **Meet Pad-chan, the LocalPad++ mascot.**
@@ -31,13 +31,13 @@ She lives in a single HTML file, needs no admin rights, and never phones home. I
 </tr>
 </table>
 
-<div align="center"><img src="assets/screenshot.png" alt="LocalPad++ editing a bash script in the Deep Blue theme" width="90%"></div>
+<div align="center"><img src="screenshot.png" alt="LocalPad++ editing a bash script in the Deep Blue theme" width="90%"></div>
 
 ---
 
 ## ⚡ Quick start
 
-<img src="assets/flow.png" alt="Copy one file, double-click it, edit and save" width="100%">
+<img src="flow.png" alt="Copy one file, double-click it, edit and save" width="100%">
 
 1. Download `index.html` (rename it to `localpad.html` if you like).
 2. Copy it to the target machine: RDP clipboard / drive mapping, Citrix file transfer, `scp`, USB, or paste the raw contents into a new `.html` file.
@@ -68,7 +68,7 @@ There is no build step and no `npm install`.
 
 ## ✨ Features
 
-<img src="assets/features.png" alt="LocalPad++ feature overview" width="100%">
+<img src="features.png" alt="LocalPad++ feature overview" width="100%">
 
 <details>
 <summary><b>Full feature list</b></summary>
@@ -94,7 +94,7 @@ Press `F1` for About and open *Shortcut List* in the Settings menu for every key
 
 Pick a theme under **Settings > Style Configurator (Themes)** or in **Preferences**.
 
-<img src="assets/themes.png" alt="Anime themes: One Punch Man, Naruto, Attack on Titan, Chainsaw Man" width="100%">
+<img src="themes.png" alt="Anime themes: One Punch Man, Naruto, Attack on Titan, Chainsaw Man" width="100%">
 
 | Theme | Style | Inspired by |
 |---|---|---|
@@ -109,7 +109,7 @@ Each anime theme also ships with a matching **dimmed background wallpaper** that
 
 > The anime themes are **unofficial, fan-made colour palettes**, and the bundled wallpapers are fan-made artwork. They are not affiliated with or endorsed by the creators or publishers of those series. The artwork belongs to its original artists and rights holders and is **not** covered by the MIT licence below. If you redistribute this project, credit the artists or replace the wallpapers with your own.
 
-<div align="center"><img src="assets/divider.svg" alt="" width="60%"></div>
+<div align="center"><img src="divider.svg" alt="" width="60%"></div>
 
 ## 🧭 Use cases
 
@@ -146,13 +146,20 @@ Each anime theme also ships with a matching **dimmed background wallpaper** that
 - Nothing is uploaded; all processing happens locally in the browser.
 - Session data lives in the browser's local storage and is not encrypted. On shared machines, close your tabs or clear site data when you are done.
 
+## 📁 Repository contents
+
+| File | Purpose |
+|---|---|
+| `index.html` | The entire app. This is the only file you need to run LocalPad++. |
+| `README.md` | This page. |
+| `LICENSE` | MIT license. |
+| `banner.png`, `logo.png`, `logo.svg`, `divider.svg`, `screenshot.png`, `flow.png`, `features.png`, `themes.png` | Images used only by this README. |
+
 ## 🚀 Hosting on GitHub (optional)
 
-1. Create a repo and add `index.html`, `README.md`, `LICENSE` and the `assets/` folder.
-2. *Settings > Pages > Deploy from branch > `main` / root* gives you a hosted copy at `https://<user>.github.io/<repo>/`. On restricted networks, prefer downloading the file and running it locally.
+1. Create a repo and upload all the files listed above.
+2. Go to *Settings > Pages > Deploy from branch > `main` / root*. Your hosted copy will appear at `https://<user>.github.io/<repo>/`. On restricted networks, prefer downloading the file and running it locally.
 3. Attach `index.html` to a **Release** so users can grab a single file directly.
-
-The `assets/` folder is only used by this README. The app itself (`index.html`) needs nothing else.
 
 ## 🤝 Contributing
 
